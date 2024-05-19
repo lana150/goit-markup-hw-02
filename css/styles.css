@@ -104,7 +104,10 @@ a {
 }
 /* Section-3- team */
 
-.team-list {
+.team {
+  background-color: #f4f4fd;
+}
+.team-list-color {
   background-color: #ffffff;
 }
 .team-title {
