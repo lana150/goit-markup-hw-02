@@ -34,9 +34,15 @@ a {
 .header-menu-link:hover {
   color: #404bbf;
 }
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
 
 .address-list-item-link {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -44,6 +50,9 @@ a {
 }
 
 .address-list-item-link:hover {
+  color: #404bbf;
+}
+.address-list-item-link:focus {
   color: #404bbf;
 }
 /* Section-1-hero */
@@ -68,10 +77,13 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
 
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 
 .hero-btn:hover {
+  background-color: #404bbf;
+}
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -92,8 +104,11 @@ a {
 }
 /* Section-3- team */
 
-.team-list {
+.team {
   background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
 }
 .team-title {
   text-transform: capitalize;
